@@ -1,0 +1,27 @@
+.topNav {
+  background-color: mediumpurple;
+  padding: 1rem 2rem;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navListLink {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+button.navListLink {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}

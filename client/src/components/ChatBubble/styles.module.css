@@ -1,0 +1,38 @@
+.messageContainer {
+  background: linear-gradient(white, skyblue);
+  border: 2px solid dodgerblue;
+  border-radius: 1rem;
+
+  padding: 1rem 2rem;
+  margin: 0 5rem 0 0;
+
+  display: flex;
+  align-items: center;
+
+  overflow-wrap: break-word;
+}
+
+.messageContainerBot {
+  background: linear-gradient(white, lightpink);
+  border-color: lightpink;
+}
+
+.messageContainerSelf {
+  background: linear-gradient(white, lightgrey);
+  border-color: lightgrey;
+  margin: 0 0 0 5rem;
+}
+
+.author {
+  padding: 0.25rem 1rem;
+  text-transform: capitalize;
+}
+
+.authorBot {
+  font-weight: bold;
+}
+
+.authorSelf {
+  text-align: right;
+  font-style: italic;
+}
